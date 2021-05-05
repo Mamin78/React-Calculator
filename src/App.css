@@ -1,0 +1,166 @@
+.key {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #bdc8d0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.key.wide {
+    width: 200px;
+}
+
+.key.blue {
+    background-color: #299bff;
+    color: white;
+}
+
+.key:hover {
+    background-color: #92a4b1;
+}
+
+.key.blue:hover {
+    background-color: #1b8bec;
+}
+
+.key.memory {
+    background-color: #bdc8d0;
+}
+
+.key.memory:hover {
+    background-color: #92a4b1;
+}
+
+.screen {
+    height: 100px;
+    width: 400px;
+    background-color: #3b3e41;
+    color: white;
+    padding: 8px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .key {
+        height: 12.5vw;
+        width: 12.5vw;
+        font-size: 1em;
+    }
+
+    .key.memory {
+        height: 7.5vw;
+        width: 10vw;
+    }
+
+    .key.wide {
+        height: 12.5vw;
+        width: 25vw;
+    }
+
+    .screen {
+        height: 15vh;
+        width: 50vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .key {
+        height: 10vw;
+        width: 10vw;
+        font-size: 1em;
+    }
+
+    .key.memory {
+        height: 4vw;
+        width: 8vw;
+    }
+
+    .key.wide {
+        height: 10vw;
+        width: 20vw;
+    }
+
+    .screen {
+        height: 15vh;
+        width: 40vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .key {
+        height: 7.5vw;
+        width: 7.5vw;
+        font-size: 1em;
+    }
+
+    .key.memory {
+        height: 3vw;
+        width: 6vw;
+    }
+
+    .key.wide {
+        height: 7.5vw;
+        width: 15vw;
+    }
+
+    .screen {
+        height: 15vh;
+        width: 30vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .key {
+        height: 7.5vw;
+        width: 7.5vw;
+        font-size: 1.2em;
+    }
+
+    .key.memory {
+        height: 3vw;
+        width: 6vw;
+    }
+
+    .key.wide {
+        height: 7.5vw;
+        width: 15vw;
+    }
+
+    .screen {
+        height: 15vh;
+        width: 30vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .key {
+        height: 6vw;
+        width: 6vw;
+        font-size: 1.2em;
+    }
+
+    .key.memory {
+        height: 2.5vw;
+        width: 4.8vw;
+    }
+
+    .key.wide {
+        height: 6vw;
+        width: 12vw;
+    }
+
+    .screen {
+        height: 15vh;
+        width: 24vw;
+    }
+}
